@@ -3,7 +3,7 @@ aiohttp==3.7.4.post0
 aiomysql==0.0.20
 altgraph==0.17
 appdirs==1.4.4
-APScheduler==3.6.3
+APScheduler==3.7.0
 asgiref==3.3.1
 astroid==2.4.2
 async-timeout==3.0.1
