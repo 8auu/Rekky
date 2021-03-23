@@ -184,7 +184,7 @@ uritemplate==3.0.1
 urllib3==1.26.3
 virtualenv==20.4.2
 webdriver-manager==3.3.0
-websocket-client==0.57.0
+websocket-client==0.58.0
 websockets==8.1
 wget==3.2
 whichcraft==0.6.1
