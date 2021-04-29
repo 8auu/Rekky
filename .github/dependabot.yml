@@ -1,0 +1,43 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google-api-python-client
+    versions:
+    - 2.0.2
+    - 2.1.0
+    - 2.2.0
+  - dependency-name: pyqt5-plugins
+    versions:
+    - 5.15.2.2.0.1
+  - dependency-name: schedule
+    versions:
+    - 1.0.0
+  - dependency-name: zope-interface
+    versions:
+    - 5.3.0
+  - dependency-name: regex
+    versions:
+    - 2021.3.17
+  - dependency-name: qt5-tools
+    versions:
+    - 5.15.2.1.0.1
+  - dependency-name: eel
+    versions:
+    - 0.14.0
+  - dependency-name: google-api-core
+    versions:
+    - 1.26.1
+  - dependency-name: tqdm
+    versions:
+    - 4.59.0
+  - dependency-name: toml
+    versions:
+    - 0.10.2
+  - dependency-name: configparser
+    versions:
+    - 5.0.2
